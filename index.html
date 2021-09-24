@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="main">Linear Gradient Background Generator</h1>
+    <h3>
+        <select name="direction" id="direction">
+            <option value="right">Right</option>
+            <option value="left">Left</option>
+            <option value="top">Top</option>
+            <option value="bottom">Bottom</option>
+            <option value="bottom right">Bottom Right</option>
+            <option value="bottom left">Bottom Left</option>
+            <option value="top right">Top Right</option>
+            <option value="top left">Top Left</option>
+        </select>
+        <input type="color" name="color1" id="color1" value="#7ae7f5">
+        <input type="color" name="color2" id="color2" value="#c91d1d">
+        <button id="randombg">Random Gradient</button>
+    </h3>
+
+    <h2>Current gradient CSS code:</h2>
+    <p id="scriptpara">background-color: linear-gradient(to right, #7ae7f5, #c91d1d);</p>
+
+<script src="main.js"></script>
+</body>
+</html>
