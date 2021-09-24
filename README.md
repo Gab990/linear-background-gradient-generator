@@ -1,10 +1,10 @@
 # linear-background-gradient-generator
 Created by #Gab990
 
-A Linear Background gradient generator with CSS code output and additional features:
+A lightweight Linear Background gradient generator with the following features:
 
-2 colours to pick
-Instant feedback on change
-Ability to set linear gradient direction
-Randomise option
-CSS code output so the background can be copied
+-2 colours to pick <br>
+-Instant feedback on change <br>
+-Ability to set linear gradient direction <br>
+-Randomise option <br>
+-CSS code output so the background can be copied <br>
